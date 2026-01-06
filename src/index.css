@@ -1,21 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   /* HSL Values */
-  --hue-primary: 230; /* Deep Blue/Purple */
+  --hue-primary: 230;
+  /* Deep Blue/Purple */
   --hue-success: 140;
   --hue-warning: 35;
   --hue-danger: 10;
-  
+
   /* Backgrounds */
   --bg-app: hsl(220, 20%, 97%);
   --bg-surface: hsl(0, 0%, 100%);
   --bg-surface-glass: hsla(0, 0%, 100%, 0.8);
   --bg-sidebar: hsl(220, 25%, 12%);
-  
+
   /* Text */
   --text-main: hsl(220, 15%, 15%);
   --text-muted: hsl(220, 10%, 50%);
   --text-inverse: hsl(0, 0%, 100%);
-  
+
   /* Borders */
   --border-light: hsl(220, 15%, 90%);
   --border-focus: hsl(var(--hue-primary), 80%, 60%);
